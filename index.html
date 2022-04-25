@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon search App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Pokemon Character Search app</h1>
+    <div id="container1">
+        <table >
+            <thead>
+              <tr>
+                  <th>id</th>
+                  <th>name of pokemon</th>
+              </tr>
+            </thead>
+            <tbody id="pokemondetails">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="container2">
+       <div>
+         <form action="">
+             <input type="text" placeholder="Search for pokemon" id="pokemonname">
+             <input type="submit" value="search" id="searchbutton" onclick="searchfn()">
+         </form>
+       </div>
+       <div id="displayofpmondetails">
+         
+       </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

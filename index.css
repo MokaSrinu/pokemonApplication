@@ -1,0 +1,28 @@
+table,td,th,tr{
+    border:1px solid black;
+    
+}
+table{
+    margin:auto
+}
+body>h1{
+    text-align:center;
+    color:teal;
+}
+form{
+    width:30%;
+    
+    margin:auto;
+    margin-top:30px;display:flex;
+    flex-direction:column;
+}
+
+#displayofpmondetails{
+    width:40%;
+    margin:auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#displayofpmondetails>div{
+    padding:20px;
+    background-color:honeydew
+}
